@@ -1,52 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <title>Frontline Growth Academy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
 <style>
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #ffffff;
-    color: #333333;
-}
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fc;
+  color: #222;
 }
 .hero {
-    text-align: center;
-    padding: 60px 20px;
-    background: #1F3A5F;
-    color: white;
+  background: linear-gradient(135deg,#1F3A5F,#2E8B57);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
 }
 .hero h1 {
-    font-size: 36px;
+  font-size: 42px;
+  margin-bottom: 10px;
 }
 .hero h2 {
-    font-weight: normal;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
-.button {
-    display: inline-block;
-    background: #2E8B57;
-    color: white;
-    padding: 15px 25px;
-    text-decoration: none;
-    margin-top: 20px;
-    border-radius: 5px;
-    font-size: 18px;
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 18px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 35px;
+  background: white;
+  color: #1F3A5F;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
 }
 .section {
-    padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
 }
-.section h2 {
-    color: #1F3A5F;
+.section h3 {
+  color: #1F3A5F;
+  font-size: 28px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 .footer {
-    text-align: center;
-    padding: 20px;
-    background: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  background: #1F3A5F;
+  color: white;
 }
 </style>
 </head>
@@ -54,55 +75,40 @@ body {
 <body>
 
 <div class="hero">
-    <h1>Frontline Growth Academy</h1>
-    <h2>Building Workplace Skills for Career Growth</h2>
-    <p>Practical training for Customer Service Associates and frontline staff who want promotion, confidence, and long-term career success.</p>
-    <a class="button" href="https://wa.me/919098217797">Get Free Career Guidance</a>
-</div>
-
-<div class="container">
-
-<div class="section">
-    <h2>Who This Is For</h2>
-    <p>This program is designed for Customer Service Associates, retail staff, call center professionals, and frontline workers who feel stuck in the same role and want to grow.</p>
+  <h1>Frontline Growth Academy</h1>
+  <h2>Building Workplace Skills for Career Growth</h2>
+  <p>Practical training for Customer Service Associates and frontline staff who want confidence, promotions, and professional growth.</p>
+  <a class="btn" href="https://wa.me/91XXXXXXXXXX">Get Free Career Guidance</a>
 </div>
 
 <div class="section">
-    <h2>Why Many Professionals Don’t Get Promoted</h2>
-    <p>Most people believe that working harder will lead to promotion. In reality, career growth depends on communication, responsibility, problem-solving, and how managers see you.</p>
+  <h3>Who This Is For</h3>
+  <div class="cards">
+    <div class="card">Customer Service Associates</div>
+    <div class="card">Retail & Frontline Staff</div>
+    <div class="card">Call Center & BPO Professionals</div>
+    <div class="card">Anyone who wants career growth</div>
+  </div>
 </div>
 
 <div class="section">
-    <h2>What We Help You With</h2>
-    <ul>
-        <li>Professional workplace communication</li>
-        <li>Customer handling and problem solving</li>
-        <li>Understanding how managers think</li>
-        <li>Preparing for supervisory roles</li>
-        <li>Career growth planning</li>
-    </ul>
+  <h3>What You Will Learn</h3>
+  <div class="cards">
+    <div class="card">Professional workplace communication</div>
+    <div class="card">How managers evaluate employees</div>
+    <div class="card">Customer handling skills</div>
+    <div class="card">Supervisor-level thinking</div>
+  </div>
 </div>
 
-<div class="section">
-    <h2>How It Works</h2>
-    <p>
-        1. Message us on WhatsApp<br>
-        2. Receive free career guidance<br>
-        3. Join our 6-week training program<br>
-        4. Build skills and confidence<br>
-        5. Prepare yourself for promotion
-    </p>
-</div>
-
-<div class="section" style="text-align:center;">
-    <h2>Start Your Career Growth Today</h2>
-    <a class="button" href="https://wa.me/91XXXXXXXXXX">Message on WhatsApp</a>
-</div>
-
+<div class="section" style="text-align:center">
+  <h3>Start Your Career Growth</h3>
+  <p>Message us on WhatsApp and receive free guidance on your next career step.</p>
+  <a class="btn" href="https://wa.me/919098217797">Message on WhatsApp</a>
 </div>
 
 <div class="footer">
-    <p>© Frontline Growth Academy</p>
+  © Frontline Growth Academy
 </div>
 
 </body>
